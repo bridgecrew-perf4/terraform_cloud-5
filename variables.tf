@@ -21,3 +21,12 @@ variable "az_database_subnet" {
 variable "availability_zones" {
   type = list(string)
 }
+
+## Web tier related variables
+
+variable "aws_instance_type" {
+  type = string
+  default = "t2.micro"
+}
+
+
